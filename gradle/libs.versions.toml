@@ -1,0 +1,43 @@
+[versions]
+androidxAppCompat = { strictly = "1.7.0" }
+googleMaterial = "1.12.0"
+alfrescoSdk = "1.5.2"
+kotlin = "2.0.0"
+dokka = "1.9.20"
+okhttp3 = "4.12.0"
+junit = "5.9.2"
+mockitoCore = "5.13.0"
+androidGradlePlugin = "8.5.1"
+jsonSimple = "1.1.1"
+mockwebserver = "4.11.0"
+junitJunit = "4.13.2"
+loggingInterceptor = "4.11.0"
+
+
+[libraries]
+
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppCompat" }
+
+google-material = { group = "com.google.android.material", name = "material", version.ref = "googleMaterial" }
+alfresco-sdk = { group = "org.alfresco.mobile.android.sdk", name = "alfresco-mobile-android-client-api",version.ref = "alfrescoSdk" }
+com-squareup-okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp3" }
+# Kotlin
+junit-junit = { group = "junit", name = "junit",version.ref = "junitJunit" }
+junit-vintage-engine = { group = "org.junit.vintage", name = "junit-vintage-engine",version.ref = "junit" }
+junit-jupiter-api = { group = "org.junit.jupiter", name = "junit-jupiter-api",version.ref = "junit" }
+junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine",version.ref = "junit" }
+mockito-core = { group = "org.mockito", name = "mockito-core",version.ref = "mockitoCore" }
+
+# Dependencies of the included build-logic
+kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-dokka = { group = "org.jetbrains.dokka", name = "dokka-gradle-plugin", version.ref = "dokka" }
+android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
+jsonSimple = { group = "com.googlecode.json-simple", name = "json-simple", version.ref = "jsonSimple" }
+okHttpInterceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor" , version.ref = "loggingInterceptor"}
+mockwebserver = {group ="com.squareup.okhttp3" , name ="mockwebserver", version.ref = "mockwebserver" }
+
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on Wed, 15 May 2019 10:51:18 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn Tue, 14 May 2019 10:38:15 +0100
+  -->
+
+<resources>
+
+    <color name="colorPrimary">#034ea1</color>
+    <color name="colorPrimaryDark">#013369</color>
+    <color name="colorPrimaryLightText">#ffffff</color>
+    <color name="colorInactive">#a7a7a7</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorAccent">#2196f3</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="colorButton">#f1f1f1</color>
+    <color name="colorButtonPressed">#034ea1</color>
+    <color name="colorButtonIcons">#034ea1</color>
+    <color name="light_alfresco">#d9dfe6</color>
+    <color name="icons">#ffffff</color>
+    <color name="shape_login_error_color">#FF0000</color>
+
+    <color name="standard_dialog_fragment_title_color">#33b5e5</color>
+    <color name="standard_dialog_fragment_separator_title_view">#33b5e5</color>
+    <color name="colorFieldError">#FF0000</color>
+
+</resources>

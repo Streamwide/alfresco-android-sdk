@@ -1,0 +1,24 @@
+<!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on Wed, 15 May 2019 10:51:18 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn Mon, 15 Apr 2019 11:17:21 +0100
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="48.0"
+    android:viewportWidth="52.969">
+    <path
+        android:fillColor="?smIcons"
+        android:pathData="M46.91,48.02h-30.9c-3.16,0 -7.17,-3.02 -7.17,-6.4v-3.13l-8.83,-1.5L0.01,9.9l8.83,-1.47v-3.09c0,-3.3 3.72,-5.34 7.17,-5.34h23.84l13.13,15.32v26.29A6.23,6.23 0,0 1,46.91 48.02ZM5.34,17.65 L7.96,23.44 4.92,29.15 7.73,29.11 9.44,24.92 11.3,29.59 14.04,29.58 11.04,23.43 13.96,17.36L11.3,17.36l-1.82,4.37 -1.67,-4.08h-2.47ZM39.74,4.68v7.06c0,1.77 2.11,3.2 3.86,3.2h4.63ZM49.67,17.08L43.6,17.08c-2.87,0 -6.07,-2.28 -6.07,-5.34L37.53,3.2L16.01,3.2c-1.75,0 -3.86,0.95 -3.86,2.13v2.54l8.83,-1.47v34.14l-8.83,-1.5v2.57c0,1.35 2.24,3.2 3.86,3.2h30.9c1.58,0 2.76,-2.67 2.76,-3.2L49.67,17.07ZM36,33h9v8h-9v-8ZM36,23h9v8h-9v-8ZM25,33h9v8h-9v-8ZM25,23h9v8h-9v-8Z"/>
+</vector>

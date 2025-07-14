@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on mar., 24 déc. 2019 17:46:30 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn mar., 24 déc. 2019 17:23:10 +0100
+  -->
+<resources>
+    <!-- Attachment Panel - Alfresco login page -->
+    <string name="alfresco_default_title">ECM Alfresco</string>
+    <string name="alfresco_login_edittext_url_hint">Zadajte Vašu Alfresco ECM URL</string>
+    <string name="alfresco_login_edittext_username_hint">Zadajte Vaše používateľské meno</string>
+    <string name="alfresco_login_edittext_password_hint">Zadajte Vaše heslo</string>
+    <string name="alfresco_login_button">Pripojenie</string>
+    <string name="alfresco_login_ssl_text">Použiť zabezpečené pripojenie (SSL)</string>
+    <string name="alfresco_login_error_url_empty">Chýbajúce url</string>
+    <string name="alfresco_login_error_username_empty">Chýbajúce používateľské meno</string>
+    <string name="alfresco_login_error_password_empty">Chýbajúce heslo</string>
+    <string name="alfresco_login_dialog_title">Pripojený účet</string>
+    <string name="alfresco_login_dialog_message">Účet bol úspešne pripojený.\nInformácie o Vašom účte boli uložené.</string>
+    <string name="alfresco_login_error_bad_url">Nedá sa pripojiť \n Prosím, skontrolujte URL odkaz.</string>
+    <string name="alfresco_login_error_bad_arg">Nedá sa pripojiť \n Prosím, skontrolujte používateľské meno a/alebo heslo.</string>
+    <string name="alfresco_login_error_global">Vyskytla sa chyba \n Prosím skúste to znova.</string>
+    <string name="alfresco_repository_inofs">(%1$s) Modifikované : %2$s</string>
+    <string name="alfresco_logout">Odhlásiť</string>
+    <string name="alfresco_logout_message">Chcete sa odhlásiť ?</string>
+    <string name="alfresco_download_error">Počas sťahovania došlo k chybe.</string>
+    <string name="global_yes">Áno</string>
+    <string name="global_no">Nie</string>
+    <string name="global_sdcard_not_available">Karta SD nebola rozpoznaná. Nie je možné pokračovať.</string>
+    <string name="global_positive">OK</string>
+    <!-- Message Error Dialogs -->
+    <string name="dialog_error_title">Chyba!</string>
+    <string name="message_attachment_sending">Odosiela sa&#8230;</string>
+    <string name="message_attachment_pending">Čaká sa</string>
+    <string name="message_attachment_downloading">Sťahuje sa&#8230;</string>
+    <!-- Network error dialog -->
+    <string name="network_dialog_title">Chyba spojenia</string>
+    <string name="network_dialog_no_connect">Sieť nie je k dispozícii. Skontrolujte nastavenia siete.</string>
+</resources>

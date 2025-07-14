@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on mar., 24 déc. 2019 17:46:30 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn mar., 24 déc. 2019 17:23:10 +0100
+  -->
+<resources>
+    <!-- Attachment Panel - Alfresco login page -->
+    <string name="alfresco_default_title">إدارة محتوى Alfresco</string>
+    <string name="alfresco_login_edittext_url_hint">أدخل عنوان URL الخاص بإدارة محتوى Alfresco</string>
+    <string name="alfresco_login_edittext_username_hint">أدخل اسم المستخدم الخاص بك</string>
+    <string name="alfresco_login_edittext_password_hint">أدخل كلمة المرور الخاصة بك</string>
+    <string name="alfresco_login_button">اتصال</string>
+    <string name="alfresco_login_ssl_text">استخدم الاتصال الآمن (SSL)</string>
+    <string name="alfresco_login_error_url_empty">عنوان url مفقود</string>
+    <string name="alfresco_login_error_username_empty">اسم المستخدم مفقود</string>
+    <string name="alfresco_login_error_password_empty">كلمة المرور مفقودة</string>
+    <string name="alfresco_login_dialog_title">الحساب متّصل</string>
+    <string name="alfresco_login_dialog_message">تم الاتصال بالحساب بنجاح. \nتم حفظ بيانات حسابك.</string>
+    <string name="alfresco_login_error_bad_url">غير قادر على الاتصال \n يرجى التحقق من رابط URL</string>
+    <string name="alfresco_login_error_bad_arg">غير قادر على الاتصال \n يرجى التحقق من اسم المستخدم و / أو كلمة المرور</string>
+    <string name="alfresco_login_error_global">حدث خطأ ما \n يرجى المحاولة مرّة أخرى.</string>
+    <string name="alfresco_repository_inofs">تمّ تغيير (%1$s): %2$s</string>
+    <string name="alfresco_logout">تسجيل الخروج</string>
+    <string name="alfresco_logout_message">هل ترغب في تسجيل الخروج؟</string>
+    <string name="alfresco_download_error">حدث خطأ ما خلال عمليّة التّحميل.</string>
+    <string name="global_yes">نعم</string>
+    <string name="global_no">لا</string>
+    <string name="global_sdcard_not_available">لم يتم الكشف عن بطاقة SD. لا يمكن الاستمرار.</string>
+    <string name="global_positive">موافق</string>
+    <!-- Message Error Dialogs -->
+    <string name="dialog_error_title">خطأ!</string>
+    <string name="message_attachment_sending">جار الإرسال&#8230;</string>
+    <string name="message_attachment_pending">قيد الانتظار</string>
+    <string name="message_attachment_downloading">جار التحميل&#8230;</string>
+    <!-- Network error dialog -->
+    <string name="network_dialog_title">خطأ في الاتصال</string>
+    <string name="network_dialog_no_connect">الشبكة غير متاحة. يرجى التحقق من إعدادات الشبكة الخاصة بك.</string>
+</resources>

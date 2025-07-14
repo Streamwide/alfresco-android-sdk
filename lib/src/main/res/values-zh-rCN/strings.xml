@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on mar., 24 déc. 2019 17:46:30 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn mar., 24 déc. 2019 17:23:10 +0100
+  -->
+<resources>
+    <!-- Attachment Panel - Alfresco login page -->
+    <string name="alfresco_default_title">ECM Alfresco</string>
+    <string name="alfresco_login_edittext_url_hint">輸入您的Alfresco ECM URL</string>
+    <string name="alfresco_login_edittext_username_hint">輸入你的用戶名</string>
+    <string name="alfresco_login_edittext_password_hint">輸入您的密碼</string>
+    <string name="alfresco_login_button">連接</string>
+    <string name="alfresco_login_ssl_text">使用安全連接（SSL）</string>
+    <string name="alfresco_login_error_url_empty">缺少網址</string>
+    <string name="alfresco_login_error_username_empty">缺少用戶名</string>
+    <string name="alfresco_login_error_password_empty">缺少密碼</string>
+    <string name="alfresco_login_dialog_title">帳戶已連接</string>
+    <string name="alfresco_login_dialog_message">帳戶已成功連接。\n您的帳號資訊已保存。</string>
+    <string name="alfresco_login_error_bad_url">無法連接\n請檢查URL連結</string>
+    <string name="alfresco_login_error_bad_arg">無法連接\n請檢查用戶名和/或密碼</string>
+    <string name="alfresco_login_error_global">發生錯誤\n請重試。</string>
+    <string name="alfresco_repository_inofs">（%1$s）已修改：%2$s</string>
+    <string name="alfresco_logout">退出登錄</string>
+    <string name="alfresco_logout_message">你要退出登錄嗎？</string>
+    <string name="alfresco_download_error">下載操作時發生錯誤。</string>
+    <string name="global_yes">是</string>
+    <string name="global_no">否</string>
+    <string name="global_sdcard_not_available">未檢測到SD卡。無法繼續。</string>
+    <string name="global_positive">好</string>
+    <!-- Message Error Dialogs -->
+    <string name="dialog_error_title">錯誤！</string>
+    <string name="message_attachment_sending">發送&#8230;</string>
+    <string name="message_attachment_pending">待定</string>
+    <string name="message_attachment_downloading">下載&#8230;</string>
+    <!-- Network error dialog -->
+    <string name="network_dialog_title">連接錯誤</string>
+    <string name="network_dialog_no_connect">網路不可用。請檢查你的網路設置。</string>
+</resources>

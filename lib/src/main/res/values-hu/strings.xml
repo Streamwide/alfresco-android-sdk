@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on mar., 24 déc. 2019 17:46:30 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn mar., 24 déc. 2019 17:23:10 +0100
+  -->
+<resources>
+    <!-- Attachment Panel - Alfresco login page -->
+    <string name="alfresco_default_title">ECM Alfresco</string>
+    <string name="alfresco_login_edittext_url_hint">Adja meg az Alfresco ECM URL-címét</string>
+    <string name="alfresco_login_edittext_username_hint">Adja meg a felhasználónevét</string>
+    <string name="alfresco_login_edittext_password_hint">Adja meg jelszavát</string>
+    <string name="alfresco_login_button">Csatlakozás</string>
+    <string name="alfresco_login_ssl_text">Biztonságos kapcsolat használata (SSL)</string>
+    <string name="alfresco_login_error_url_empty">Hiányzó url</string>
+    <string name="alfresco_login_error_username_empty">Hiányzó felhasználónév</string>
+    <string name="alfresco_login_error_password_empty">Hiányzó jelszó</string>
+    <string name="alfresco_login_dialog_title">Csatlakoztatott számla</string>
+    <string name="alfresco_login_dialog_message">A fiók sikeresen csatlakozott.\nAz Ön fiókadatai mentésre kerültek.</string>
+    <string name="alfresco_login_error_bad_url">Képtelen csatlakozni \n Kérjük, ellenőrizze az URL-linket</string>
+    <string name="alfresco_login_error_bad_arg">Nem sikerült csatlakozni \n Kérjük, ellenőrizze a felhasználónevet és/vagy jelszót</string>
+    <string name="alfresco_login_error_global">Hiba történt \n Kérjük, próbálja meg újra.</string>
+    <string name="alfresco_repository_inofs">(%1$s) Módosítva : %2$s</string>
+    <string name="alfresco_logout">Kijelentkezés</string>
+    <string name="alfresco_logout_message">Szeretne kijelentkezni ?</string>
+    <string name="alfresco_download_error">Hiba történt a letöltési művelet során.</string>
+    <string name="global_yes">Igen</string>
+    <string name="global_no">Nem</string>
+    <string name="global_sdcard_not_available">SD-kártya nem érzékelhető. Lehetetlen folytatni.</string>
+    <string name="global_positive">OK</string>
+    <!-- Message Error Dialogs -->
+    <string name="dialog_error_title">Hiba!</string>
+    <string name="message_attachment_sending">Küldés&#8230;</string>
+    <string name="message_attachment_pending">Függőben</string>
+    <string name="message_attachment_downloading">Letöltés&#8230;</string>
+    <!-- Network error dialog -->
+    <string name="network_dialog_title">Csatlakozási hiba</string>
+    <string name="network_dialog_no_connect">A hálózat nem érhető el. Ellenőrizze a hálózati beállításokat.</string>
+</resources>

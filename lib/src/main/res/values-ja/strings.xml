@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on mar., 24 déc. 2019 17:46:30 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn mar., 24 déc. 2019 17:23:10 +0100
+  -->
+<resources>
+    <!-- Attachment Panel - Alfresco login page -->
+    <string name="alfresco_default_title">ECM Alfresco</string>
+    <string name="alfresco_login_edittext_url_hint">Alfresco ECMのURLを入力してください</string>
+    <string name="alfresco_login_edittext_username_hint">ユーザー名を入力してください</string>
+    <string name="alfresco_login_edittext_password_hint">パスワードを入力してください</string>
+    <string name="alfresco_login_button">接続</string>
+    <string name="alfresco_login_ssl_text">セキュア接続（SSL）を使用する</string>
+    <string name="alfresco_login_error_url_empty">URLがありません</string>
+    <string name="alfresco_login_error_username_empty">ユーザー名がありません</string>
+    <string name="alfresco_login_error_password_empty">パスワードがありません</string>
+    <string name="alfresco_login_dialog_title">アカウントが接続されました</string>
+    <string name="alfresco_login_dialog_message">アカウントが正常に接続されました。\nアカウント情報が保存されました。</string>
+    <string name="alfresco_login_error_bad_url">接続できません\n URLリンクを確認してください</string>
+    <string name="alfresco_login_error_bad_arg">接続できません\n ユーザー名を確認してください</string>
+    <string name="alfresco_login_error_global">エラーが発生しました\nもう一度やり直してください。</string>
+    <string name="alfresco_repository_inofs">(%1$s) 変更 : %2$s</string>
+    <string name="alfresco_logout">ログアウト</string>
+    <string name="alfresco_logout_message">ログアウトしますか？</string>
+    <string name="alfresco_download_error">ダウンロード操作中にエラーが発生しました。</string>
+    <string name="global_yes">はい</string>
+    <string name="global_no">いいえ</string>
+    <string name="global_sdcard_not_available">SDカードが検出されません。続行できません。</string>
+    <string name="global_positive">OK</string>
+    <!-- Message Error Dialogs -->
+    <string name="dialog_error_title">エラー！</string>
+    <string name="message_attachment_sending">送信しています&#8230;</string>
+    <string name="message_attachment_pending">保留中</string>
+    <string name="message_attachment_downloading">ダウンロードしています&#8230;</string>
+    <!-- Network error dialog -->
+    <string name="network_dialog_title">接続エラー</string>
+    <string name="network_dialog_no_connect">ネットワークを利用できません。ネットワークの設定を確認してください。</string>
+</resources>

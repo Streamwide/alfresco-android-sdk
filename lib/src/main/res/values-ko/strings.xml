@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on mar., 24 déc. 2019 17:46:30 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn mar., 24 déc. 2019 17:23:10 +0100
+  -->
+<resources>
+    <!-- Attachment Panel - Alfresco login page -->
+    <string name="alfresco_default_title">ECM Alfresco</string>
+    <string name="alfresco_login_edittext_url_hint">Alfresco ECM URL 입력</string>
+    <string name="alfresco_login_edittext_username_hint">사용자 이름 입력</string>
+    <string name="alfresco_login_edittext_password_hint">비밀번호 입력</string>
+    <string name="alfresco_login_button">연결</string>
+    <string name="alfresco_login_ssl_text">보안 연결(SSL) 사용</string>
+    <string name="alfresco_login_error_url_empty">Url 누락</string>
+    <string name="alfresco_login_error_username_empty">사용자 이름 누락</string>
+    <string name="alfresco_login_error_password_empty">비밀번호 누락</string>
+    <string name="alfresco_login_dialog_title">계정 연결됨</string>
+    <string name="alfresco_login_dialog_message">계정이 성공적으로 연결되었습니다.\n계정 정보가 저장되었습니다.</string>
+    <string name="alfresco_login_error_bad_url">연결할 수 없습니다. \n URL 링크를 확인하십시오.</string>
+    <string name="alfresco_login_error_bad_arg">연결할 수 없습니다. \n 사용자 이름 및/또는 비밀번호를 확인하십시오.</string>
+    <string name="alfresco_login_error_global">오류가 발생했습니다. \n 다시 시도하십시오.</string>
+    <string name="alfresco_repository_inofs">(%1$s) 수정됨 : %2$s</string>
+    <string name="alfresco_logout">로그아웃</string>
+    <string name="alfresco_logout_message">로그아웃하시겠습니까 ?</string>
+    <string name="alfresco_download_error">다운로드 작업 중 오류가 발생했습니다.</string>
+    <string name="global_yes">예</string>
+    <string name="global_no">아니요</string>
+    <string name="global_sdcard_not_available">SD 카드가 감지되지 않습니다. 계속할 수 없습니다.</string>
+    <string name="global_positive">확인</string>
+    <!-- Message Error Dialogs -->
+    <string name="dialog_error_title">오류!</string>
+    <string name="message_attachment_sending">보내는 중&#8230;</string>
+    <string name="message_attachment_pending">대기 중</string>
+    <string name="message_attachment_downloading">다운로드 중&#8230;</string>
+    <!-- Network error dialog -->
+    <string name="network_dialog_title">연결 오류</string>
+    <string name="network_dialog_no_connect">네트워크를 사용할 수 없습니다. 네트워크 설정을 확인하십시오.</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on mar., 24 déc. 2019 17:46:30 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn mar., 24 déc. 2019 17:23:10 +0100
+  -->
+<resources>
+    <!-- Attachment Panel - Alfresco login page -->
+    <string name="alfresco_default_title">ECM Alfresco</string>
+    <string name="alfresco_login_edittext_url_hint">Voer uw Alfresco ECM URL in</string>
+    <string name="alfresco_login_edittext_username_hint">Voer uw gebruikersnaam in</string>
+    <string name="alfresco_login_edittext_password_hint">Voer uw wachtwoord in</string>
+    <string name="alfresco_login_button">Verbinding gemaakt</string>
+    <string name="alfresco_login_ssl_text">Gebruik een beveiligde verbiding (SSL)</string>
+    <string name="alfresco_login_error_url_empty">URL ontbreekt</string>
+    <string name="alfresco_login_error_username_empty">Gebruikersnaam ontbreekt</string>
+    <string name="alfresco_login_error_password_empty">Wachtwoord ontbreekt</string>
+    <string name="alfresco_login_dialog_title">Account verbonden</string>
+    <string name="alfresco_login_dialog_message">Het account is erin geslaagd verbinding te maken. \n Uw accountgegevens zijn opgeslagen.</string>
+    <string name="alfresco_login_error_bad_url">Het is niet mogleijk om verbinding te maken. \n Controleer de URL-link</string>
+    <string name="alfresco_login_error_bad_arg">Het is niet mogelijk om verbiding te maken.\n Controleer de gebruikersnaam en/of het wachtwoord</string>
+    <string name="alfresco_login_error_global">Er heeft een fout plaatsgevonden. \n Probeer het nog een keer.</string>
+    <string name="alfresco_repository_inofs">(%1$s) Gemodificeerd: %2$s</string>
+    <string name="alfresco_logout">Uitloggen</string>
+    <string name="alfresco_logout_message">Wilt u uitloggen ?</string>
+    <string name="alfresco_download_error">Er vond een fout plaats tijdens het downloaden.</string>
+    <string name="global_yes">Ja</string>
+    <string name="global_no">Nee</string>
+    <string name="global_sdcard_not_available">Er is geen SD-kaart gedetecteerd. Het is niet mogelijk om verder te gaan.</string>
+    <string name="global_positive">OK</string>
+    <!-- Message Error Dialogs -->
+    <string name="dialog_error_title">Fout!</string>
+    <string name="message_attachment_sending">&#8230; wordt verzonden</string>
+    <string name="message_attachment_pending">In afwachting</string>
+    <string name="message_attachment_downloading">&#8230; wordt gedownload</string>
+    <!-- Network error dialog -->
+    <string name="network_dialog_title">Verbindingsfout</string>
+    <string name="network_dialog_no_connect">Netwerk niet beschikbaar. Controleer uw netwerkinstellingen.</string>
+</resources>

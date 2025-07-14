@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on Wed, 15 May 2019 10:51:18 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn Mon, 13 May 2019 12:57:15 +0100
+  -->
+
+<resources>
+
+    <attr name="smColorToolBar" format="reference" />
+    <attr name="smColorToolBarPrimaryText" format="reference" />
+
+    <attr name="smColorToolBarIcon" format="reference" />
+    <attr name="smColorButtonIcons" format="reference" />
+    <attr name="smColorInactive" format="reference" />
+    <attr name="smIcons" format="reference" />
+    <attr name="smColorAccent" format="reference" />
+    <attr name="smColorButtonPressed" format="reference" />
+    <attr name="smColorButton" format="reference" />
+    <attr name="smColorSecondaryText" format="reference" />
+    <attr name="smColorPrimaryLightText" format="reference" />
+    <attr name="smColorPrimaryText" format="reference" />
+    <attr name="smColorAccentAlertDialog" format="reference|color" />
+
+</resources>

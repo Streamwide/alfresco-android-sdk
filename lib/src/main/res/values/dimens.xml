@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on Fri, 26 Apr 2019 18:45:01 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn Fri, 26 Apr 2019 18:44:59 +0100
+  -->
+
+<resources>
+
+    <dimen name="button_login_height">40dp</dimen>
+    <dimen name="bottom_bar_icon_width">40dip</dimen>
+    <dimen name="bottom_bar_icon_height">40dip</dimen>
+    <dimen name="alfresco_list_name_text_size">16sp</dimen>
+    <dimen name="alfresco_list_infos_text_size">13sp</dimen>
+    <dimen name="alfresco_item_attachment_preview_size">40dip</dimen>
+    <dimen name="login_tip_textSize">12sp</dimen>
+    <dimen name="textSize_14sp">14sp</dimen>
+    <dimen name="textSize_16sp">16sp</dimen>
+
+</resources>

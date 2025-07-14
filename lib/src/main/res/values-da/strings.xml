@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on mar., 24 déc. 2019 17:46:30 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn mar., 24 déc. 2019 17:23:10 +0100
+  -->
+<resources>
+    <!-- Attachment Panel - Alfresco login page -->
+    <string name="alfresco_default_title">ECM Alfresco</string>
+    <string name="alfresco_login_edittext_url_hint">Indtast din Alfresco ECM-URL</string>
+    <string name="alfresco_login_edittext_username_hint">Indtast dit brugernavn</string>
+    <string name="alfresco_login_edittext_password_hint">Indtast din adgangskode</string>
+    <string name="alfresco_login_button">Forbind</string>
+    <string name="alfresco_login_ssl_text">Brug sikker forbindelse (SSL)</string>
+    <string name="alfresco_login_error_url_empty">Mangler url</string>
+    <string name="alfresco_login_error_username_empty">Mangler brugernavn</string>
+    <string name="alfresco_login_error_password_empty">Mangler adgangskode</string>
+    <string name="alfresco_login_dialog_title">Konto tilsluttet</string>
+    <string name="alfresco_login_dialog_message">Kontoen er tilsluttet. \nDine kontooplysninger er blevet gemt.</string>
+    <string name="alfresco_login_error_bad_url">Kan ikke oprette forbindelse \n Tjek venligst URL-linket</string>
+    <string name="alfresco_login_error_bad_arg">Kan ikke oprette forbindelse \n Tjek venligst Url-linket</string>
+    <string name="alfresco_login_error_global">En fejl opstod \n Prøv venligst igen.</string>
+    <string name="alfresco_repository_inofs">(%1$s) Ændret : %2$s</string>
+    <string name="alfresco_logout">Log ud</string>
+    <string name="alfresco_logout_message">Vil du logge ud?</string>
+    <string name="alfresco_download_error">Der opstod en fejl under download.</string>
+    <string name="global_yes">Ja</string>
+    <string name="global_no">Nej</string>
+    <string name="global_sdcard_not_available">SD-kortet er ikke fundet. Umuligt at fortsætte.</string>
+    <string name="global_positive">OK</string>
+    <!-- Message Error Dialogs -->
+    <string name="dialog_error_title">Fejl!</string>
+    <string name="message_attachment_sending">Sender&#8230;</string>
+    <string name="message_attachment_pending">Afventer</string>
+    <string name="message_attachment_downloading">Henter&#8230;</string>
+    <!-- Network error dialog -->
+    <string name="network_dialog_title">Forbindelsesfejl</string>
+    <string name="network_dialog_no_connect">Netværket er ikke tilgængeligt. Tjek venligst dine netværksindstillinger.</string>
+</resources>

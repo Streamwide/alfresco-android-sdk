@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on mar., 24 déc. 2019 17:46:30 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn mar., 24 déc. 2019 17:23:10 +0100
+  -->
+<resources>
+    <!-- Attachment Panel - Alfresco login page -->
+    <string name="alfresco_default_title">ECM Alfresco</string>
+    <string name="alfresco_login_edittext_url_hint">Geben Sie Ihre Alfresco ECM-URL ein</string>
+    <string name="alfresco_login_edittext_username_hint">Geben Sie Ihren Benutzernamen ein</string>
+    <string name="alfresco_login_edittext_password_hint">Geben Sie Ihr Kennwort ein</string>
+    <string name="alfresco_login_button">Verbinden</string>
+    <string name="alfresco_login_ssl_text">Gesicherte Verbindung (SSL) verwenden</string>
+    <string name="alfresco_login_error_url_empty">Fehlende URL</string>
+    <string name="alfresco_login_error_username_empty">Fehlender Benutzername</string>
+    <string name="alfresco_login_error_password_empty">Fehlendes Kennwort</string>
+    <string name="alfresco_login_dialog_title">Konto verbunden</string>
+    <string name="alfresco_login_dialog_message">Konto erfolgreich verbunden.\nYour Kontoinformationen wurden gespeichert.</string>
+    <string name="alfresco_login_error_bad_url">Verbindung nicht möglich \n Bitte überprüfen Sie den URL-Link</string>
+    <string name="alfresco_login_error_bad_arg">Verbindung nicht möglich \n Bitte überprüfen Sie Benutzername und/oder Kennwort</string>
+    <string name="alfresco_login_error_global">Es ist ein Fehler aufgetreten. \n Versuchen Sie es später erneut.</string>
+    <string name="alfresco_repository_inofs">(%1$s) Geändert: %2$s</string>
+    <string name="alfresco_logout">Abmelden</string>
+    <string name="alfresco_logout_message">Möchten Sie sich abmelden?</string>
+    <string name="alfresco_download_error">Beim Download ist ein Fehler aufgetreten.</string>
+    <string name="global_yes">Ja</string>
+    <string name="global_no">Nein</string>
+    <string name="global_sdcard_not_available">SD-Karte wurde nicht erkannt. Fortfahren nicht möglich.</string>
+    <string name="global_positive">OK</string>
+    <!-- Message Error Dialogs -->
+    <string name="dialog_error_title">Fehler!</string>
+    <string name="message_attachment_sending">&#8230; wird gesendet</string>
+    <string name="message_attachment_pending">Ausstehend</string>
+    <string name="message_attachment_downloading">&#8230; wird heruntergeladen</string>
+    <!-- Network error dialog -->
+    <string name="network_dialog_title">Verbindungsfehler</string>
+    <string name="network_dialog_no_connect">Netzwerk nicht verfügbar. Bitte überprüfen Sie die Netzwerkeinstellungen.</string>
+</resources>

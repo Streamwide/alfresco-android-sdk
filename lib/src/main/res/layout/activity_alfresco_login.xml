@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on lun., 20 janv. 2020 15:44:55 +0100
+  ~ @copyright  Copyright (c) 2020 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2020 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn lun., 20 janv. 2020 15:44:55 +0100
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.activity.AlfrescoLoginActivity"
+    android:windowSoftInputMode="adjustPan"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/activity_alfresco_toolbar"
+        style="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="?smColorToolBar"
+        android:minHeight="?android:actionBarSize"
+        app:contentInsetStartWithNavigation="0dp"
+        app:titleTextColor="?smColorToolBarPrimaryText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_totr_ged_alfresco_connection" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/alfresco_login_url_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="30dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/alfresco_login_url_input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:textColorHint="?smColorPrimaryText"
+                        >
+
+                        <EditText
+                            android:id="@+id/alfresco_login_url_edittext"
+                            style="@style/alfresco_login_url_style"
+                            android:ems="10"
+                            android:hint="@string/alfresco_login_edittext_url_hint"
+                            android:importantForAutofill="no" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/alfresco_login_username_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/alfresco_login_username_input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:textColorHint="?smColorPrimaryText"
+                       >
+
+                        <EditText
+                            android:id="@+id/alfresco_login_username_edittext"
+                            style="@style/alfresco_login_username_style"
+                            android:ems="10"
+                            android:hint="@string/alfresco_login_edittext_username_hint"
+                            android:importantForAutofill="no" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/alfresco_login_password_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/alfresco_login_password__input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:textColorHint="?smColorPrimaryText">
+
+
+                        <EditText
+                            android:id="@+id/alfresco_login_password_edittext"
+                            style="@style/alfresco_login_password_style"
+                            android:ems="10"
+                            android:hint="@string/alfresco_login_edittext_password_hint"
+                            android:importantForAutofill="no" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <com.streamwide.smartms.lib.alfresco.ui.view.CustomTextView
+                        style="@style/alfresco_login_ssl_txt_style"
+                        android:layout_width="wrap_content"
+                        android:text="@string/alfresco_login_ssl_text" />
+
+                    <androidx.appcompat.widget.AppCompatCheckBox
+                        android:id="@+id/alfresco_login_ssl_ckeck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:button="@null"
+                        android:drawableEnd="@drawable/btn_check_box" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="20dp">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/alfresco_login_btn"
+                        android:textColor="?smColorToolBarPrimaryText"
+                        android:background="?smColorToolBar"
+                        android:layout_marginStart="20dip"
+                        android:layout_marginEnd="20dip"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/button_login_height"
+                        android:text="@string/alfresco_login_button" />
+                </LinearLayout>
+
+                <com.streamwide.smartms.lib.alfresco.ui.view.CustomTextView
+                    android:id="@+id/alfresco_login_error_txt"
+                    style="@style/alfresco_login_error_txt_style"
+                    android:layout_width="match_parent" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

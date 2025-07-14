@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on Fri, 26 Apr 2019 18:45:00 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn Fri, 26 Apr 2019 18:44:59 +0100
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid
+
+        android:color="@android:color/transparent" />
+
+    <stroke
+        android:width="2dp"
+        android:color="@color/shape_login_error_color" />
+
+</shape>

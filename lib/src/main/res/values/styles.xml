@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on Thu, 2 Jul 2020 15:15:05 +0200
+  ~ @copyright  Copyright (c) 2020 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2020 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn Thu, 2 Jul 2020 12:21:09 +0200
+  -->
+
+<resources>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SmartMSLib.NoActionBar.Lib" parent="Theme.SmartMSLib">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SmartMSLib" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="smColorToolBar">@color/colorPrimary</item>
+        <item name="smColorToolBarPrimaryText">@color/colorPrimaryLightText</item>
+        <item name="smColorButtonIcons">@color/colorButtonIcons</item>
+        <item name="smColorInactive">@color/colorInactive</item>
+        <item name="smIcons">@color/icons</item>
+        <item name="smColorButtonPressed">@color/colorButtonPressed</item>
+        <item name="smColorButton">@color/colorButton</item>
+        <item name="smColorSecondaryText">@color/colorSecondaryText</item>
+        <item name="smColorPrimaryLightText">@color/colorPrimaryLightText</item>
+        <item name="smColorPrimaryText">@color/colorPrimaryText</item>
+        <item name="smColorAccentAlertDialog">@color/colorAccent</item>
+        <item name="smColorToolBarIcon">@color/icons</item>
+        <item name="colorControlNormal">@color/colorInactive</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="layout_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- alfresco login password -->
+    <style name="alfresco_login_password_style" parent="@style/layout_normal">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">?smColorSecondaryText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- alfresco login url -->
+    <style name="alfresco_login_url_style" parent="@style/layout_normal">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:inputType">textUri</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">?smColorSecondaryText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- alfresco login username -->
+    <style name="alfresco_login_username_style" parent="@style/layout_normal">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:inputType">text</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">?smColorSecondaryText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- bar button style -->
+    <style name="bar_btn">
+        <item name="android:layout_width">@dimen/bottom_bar_icon_width</item>
+        <item name="android:layout_height">@dimen/bottom_bar_icon_height</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="background_button_style">
+        <item name="android:background">@drawable/alfrsco_rounded_button_selector</item>
+        <item name="android:textColor">?smColorPrimaryLightText</item>
+    </style>
+
+    <style name="Theme.SmartMSLib.Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">?attr/smColorAccentAlertDialog</item>
+    </style>
+
+    <style name="progressDialogBackground" parent="@style/Theme.SmartMSLib.NoActionBar.Lib">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="SWAlertDialogIndeterminate" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:bottomBright">@android:color/transparent</item>
+        <item name="android:bottomDark">@android:color/transparent</item>
+        <item name="android:bottomMedium">@android:color/transparent</item>
+        <item name="android:centerBright">@android:color/transparent</item>
+        <item name="android:centerDark">@android:color/transparent</item>
+        <item name="android:centerMedium">@android:color/transparent</item>
+        <item name="android:fullBright">@android:color/transparent</item>
+        <item name="android:fullDark">@android:color/transparent</item>
+        <item name="android:topBright">@android:color/transparent</item>
+        <item name="android:topDark">@android:color/transparent</item>
+        <item name="colorAccent">?attr/smColorAccentAlertDialog</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- alfresco login ssl textview -->
+    <style name="alfresco_login_ssl_txt_style" parent="@style/layout_normal">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:textSize">@dimen/login_tip_textSize</item>
+    </style>
+
+    <style name="alfresco_login_error_txt_style" parent="@style/layout_normal">
+        <item name="android:layout_marginLeft">25dip</item>
+        <item name="android:layout_marginRight">30dip</item>
+        <item name="android:layout_marginTop">15dip</item>
+        <item name="android:textColor">@color/colorFieldError</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/login_tip_textSize</item>
+    </style>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on Wed, 4 Dec 2019 16:12:14 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn Wed, 4 Dec 2019 15:41:34 +0100
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/progressDialogBackground"
+    android:orientation="vertical">
+
+    <com.streamwide.smartms.lib.alfresco.ui.view.CustomTextView
+        android:id="@+id/progress_dialog_fragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginEnd="20dip"
+        android:layout_marginStart="20dip"
+        android:layout_marginTop="10dip"
+        android:textColor="?smColorSecondaryText"
+        android:textSize="@dimen/textSize_16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/progress_dialog_fragment_separator"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="?smColorSecondaryText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            style="@style/SWAlertDialogIndeterminate"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp" />
+
+
+        <com.streamwide.smartms.lib.alfresco.ui.view.CustomTextView
+            android:id="@+id/progress_dialog_fragment_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:textColor="?smColorPrimaryText"
+            android:textSize="@dimen/textSize_14sp"
+            />
+    </LinearLayout>
+</LinearLayout>

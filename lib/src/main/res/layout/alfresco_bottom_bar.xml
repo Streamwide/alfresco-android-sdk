@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on Thu, 2 Jul 2020 15:15:05 +0200
+  ~ @copyright  Copyright (c) 2020 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2020 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn Thu, 2 Jul 2020 12:21:08 +0200
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?smColorButtonIcons" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/alfresco_bottom_bar_disconnect"
+        style="@style/bar_btn"
+        android:background="@drawable/alfresco_ic_action_background_shape"
+        app:srcCompat="@drawable/ic_ged_alfresco_connected_selector" />
+
+</RelativeLayout>

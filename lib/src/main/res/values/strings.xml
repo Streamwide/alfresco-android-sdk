@@ -1,0 +1,54 @@
+<!--
+  ~
+  ~ 	StreamWIDE (Team on The Run)
+  ~
+  ~ @createdBy  AndroidTeam on mar., 24 déc. 2019 17:46:30 +0100
+  ~ @copyright  Copyright (c) 2019 StreamWIDE UK Ltd (Team on the Run)
+  ~ @email      support@teamontherun.com
+  ~
+  ~ 	© Copyright 2019 StreamWIDE UK Ltd (Team on the Run). StreamWIDE is the copyright holder
+  ~ 	of all code contained in this file. Do not redistribute or
+  ~  	re-use without permission.
+  ~
+  ~ @lastModifiedOn mar., 24 déc. 2019 17:23:10 +0100
+  -->
+
+<resources>
+    <!-- Attachment Panel - Alfresco login page -->
+    <string name="alfresco_default_title">ECM Alfresco</string>
+    <string name="alfresco_login_edittext_url_hint">Enter your Alfresco ECM URL</string>
+    <string name="alfresco_login_edittext_username_hint">Enter your username</string>
+    <string name="alfresco_login_edittext_password_hint">Enter your password</string>
+    <string name="alfresco_login_button">Connect</string>
+    <string name="alfresco_login_ssl_text">Use secured connection (SSL)</string>
+    <string name="alfresco_login_error_url_empty">Missing url</string>
+    <string name="alfresco_login_error_username_empty">Missing username</string>
+    <string name="alfresco_login_error_password_empty">Missing password</string>
+    <string name="alfresco_login_dialog_title">Account connected</string>
+    <string name="alfresco_login_dialog_message">Account successfully connected.\nYour account information have been saved.</string>
+    <string name="alfresco_login_error_bad_url">Unable to connect \n Please check URL link</string>
+    <string name="alfresco_login_error_bad_arg">Unable to connect \n Please check Username and/or password</string>
+    <string name="alfresco_login_error_global">An error occurred \n Please try again.</string>
+    <string name="alfresco_repository_inofs">(%1$s) Modified : %2$s</string>
+    <string name="alfresco_logout">Log out</string>
+    <string name="alfresco_logout_message">Do you want to log out ?</string>
+    <string name="alfresco_download_error">An error occurred during download operation.</string>
+
+    <string name="global_yes">Yes</string>
+    <string name="global_no">No</string>
+    <string name="global_sdcard_not_available">SD card not detected. Impossible to continue.</string>
+    <string name="global_positive">OK</string>
+
+    <!-- Message Error Dialogs -->
+    <string name="dialog_error_title">Error!</string>
+
+
+    <string name="message_attachment_sending">Sending&#8230;</string>
+    <string name="message_attachment_pending">Pending</string>
+    <string name="message_attachment_downloading">Downloading&#8230;</string>
+    <!-- Network error dialog -->
+    <string name="network_dialog_title">Connection Error</string>
+    <string name="network_dialog_no_connect">Network unavailable. Please check your network settings.</string>
+
+
+</resources>
